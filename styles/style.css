@@ -10,7 +10,7 @@ h1{
 }
 
 .red{
-    background-color:rgb(255, 0, 0);
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
 }
 
 .green{
@@ -24,4 +24,21 @@ h1{
 .container{
     background-color: rgb(255, 255, 255);
     padding: 10px 0;
+}
+
+.sleeve{
+    width:110px;
+    height:25px;
+    background-color: white;
+    opacity: 0.5;
+    border-left: 10px double black;
+}
+
+.cap{
+    width:60px;
+    height:25px;
+}
+
+.cap, .sleeve{
+display: inline-block;
 }
